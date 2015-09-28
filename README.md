@@ -17,7 +17,7 @@ B.	List of all files:
 	1.	remotebank-tcp.py	:	TCP client
 	2.	server-tcp			:	TCP server
 	3.	remotebank-udp.py	:	UDP client
-	4.	server-udp.py			:	UDP server
+	4.	server-udp.py		:	UDP server
 
 C.	Detailed Instructions for compiling and running
 
@@ -40,7 +40,7 @@ C.	Detailed Instructions for compiling and running
 	III. Description of input parameters
 		
 		1.	IP address 				- 127.0.0.1 has to be exact for local host
-		2.	Port						- within range 1024~65535
+		2.	Port					- within range 1024~65535
 		3.	Username/Password 		- “DrEvil/minime123” or “Yolanda/beCool” or “Jimmie/right?”
 		4.	Transaction				- “deposit” or “withdrawal”
 		5.	Amount					- Should be in a number format. eg.”100” or “20.0”
