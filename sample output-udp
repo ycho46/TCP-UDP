@@ -1,0 +1,34 @@
+Last login: Sat Sep 26 23:40:11 on ttys000
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-udp.py 127.0.0.2:8591 DrEvil minime123 deposit 1
+Check your IP. It should be 127.0.0.1
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-udp.py 127.0.0.1:8592 DrEvil minime123 deposit 1
+Resending Authentication Request Message
+Resending Authentication Request Message
+Resending Authentication Request Message
+Resending Authentication Request Message
+Resending Authentication Request Message
+Resending Authentication Request Message
+Resending Authentication Request Message
+Resending Authentication Request Message
+Resending Authentication Request Message
+Resending Authentication Request Message
+No reply from server after 10 tries. Aborted 
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-udp.py 127.0.0.1:8591 DrEvilzzz minime123 deposit 1
+Failed to authenticate user.
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-udp.py 127.0.0.1:8591 DrEvil minime123zzz deposit 1
+Failed to authenticate user.
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-udp.py 127.0.0.1:8591 DrEvil minime123 depositzzz 1
+Invalid trasaction. Choose either deposit or withdrawal
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-udp.py 127.0.0.1:8591 DrEvil minime123 deposit 1zzz
+Transaction Error
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-udp.py 127.0.0.1:8591 DrEvil minime123 deposit 1 -d
+	*debug:Sending authentication request to server <127.0.0.1><8592>
+	*debug:Waiting to receive challenge value
+	*debug:Received challenge value
+	*debug:Sending Hash Message
+	*debug:Received Hash authentication message
+	*debug:Sending transaction information <deposit,1>
+	*debug:Received transaction comfirmation message
+Your deposit of 1 is successfully recorded.							
+Your new account balance is 367.0
+Thank you for banking with us.

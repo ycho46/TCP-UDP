@@ -1,0 +1,29 @@
+Last login: Sat Sep 26 23:37:14 on ttys000
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-tcp.py 127.0.0.2:8591 DrEvil Minime123 deposit 1
+Check your IP. It should be 127.0.0.1
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-tcp.py 127.0.0.1:8592 DrEvil Minime123 deposit 1
+Connection failure. Please check your input of IP address and Port number.		
+	eg."python remotebankTCP.py 127.0.0.1:8591 username password" or		 
+	 eg."python remotebankTCP.py 127.0.0.1:8591 username password -d" for debug mode.
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-tcp.py 127.0.0.1:8591 DrEvilzzz Minime123 deposit 1
+Check user credentials
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-tcp.py 127.0.0.1:8591 DrEvil Minime123zzz deposit 1
+Check user credentials
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-tcp.py 127.0.0.1:8591 DrEvil minime123 depositzzz 1
+Invalid trasaction. Choose either deposit or withdrawal
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-tcp.py 127.0.0.1:8591 DrEvil minime123 deposit 1zzz
+Check your amount. It should be in number format
+	eg.100.00
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ python remotebank-tcp.py 127.0.0.1:8591 DrEvil minime123 deposit 1 -d
+	*debug:Connecting to <127.0.0.1><8591>
+	*debug:Connected.
+	*debug:Sending authentication request to server <127.0.0.1><8591>
+	*debug:Sending username, hash <DrEvil,18e46679b08b4ab5cc14716083e2c22a> to server
+	*debug:Waiting for response.
+	*debug:Authenticated.
+	*debug:Sending transaction information <deposit,1>
+	*debug:Receiving transaction comfirmation and updated account information
+Your deposit of 1 is successfully recorded.							
+Your new account balance is 367.0
+Thank you for banking with us.
+YongHuis-MacBook-Air:Programming Assignment 1 YongHui$ 
