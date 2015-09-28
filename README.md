@@ -25,7 +25,7 @@ C.	Detailed Instructions for compiling and running
 		
 		1.	Open a cmd window/terminal and go to the directory containing the server files
 		2.	Type “python server-tcp 8951” to start TCP server in normal mode
-	    		Type “python server-udp 8951” to start UDP server in normal mode
+	    	Type “python server-udp 8951” to start UDP server in normal mode
 			(for debug mode simply add “-d” at the end of the command.	
 				e.g.“python server-tcp 8951 -d”) 
 	
