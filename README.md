@@ -1,5 +1,4 @@
-Name:	YongHui Cho
-Email: 	ycho46@gatech.edu
+
 Date:	9/26/2015
 
 
